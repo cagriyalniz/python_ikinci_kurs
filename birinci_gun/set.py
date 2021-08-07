@@ -29,3 +29,8 @@ print(len(ogrenciSeti))
 
 ogrenciSeti.remove("ali")
 ogrenciSeti.discard("ali") #aynı elemanı iki kere silerken ikinci silinmede hata vermemeyi saglar
+
+setA = {1, 2, "a"}
+setB = {1, "a", "b"}
+
+print(setA.union(setB))
