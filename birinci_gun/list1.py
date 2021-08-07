@@ -25,3 +25,18 @@ print(ogrenci_listesi.count("ali"))
 ogrenci_listesi.pop(2)
 ogrenci_listesi.insert(2, "gül")
 print(ogrenci_listesi)
+
+#copy özelliği önemli
+ogrenci_listesi2 = ogrenci_listesi.copy()
+ogrenci_listesi2[0] = "kazım"
+print("birinci liste: ", ogrenci_listesi)
+print("ikinci liste: ", ogrenci_listesi2)
+
+ogrenci_listesi3 = ogrenci_listesi
+ogrenci_listesi3[0] = "mustafa"
+print("birinci liste de degisti: ", ogrenci_listesi)
+print("ucuncu liste: ",  ogrenci_listesi3)
+
+ogrenci_listesi.extend(ulkeler)
+print(ogrenci_listesi)
+
