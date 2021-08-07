@@ -37,3 +37,9 @@ a = 30
 b = 99
 a,b = b,a
 print(a,b)
+
+donusum= 0.314598
+ilkDeger = int(input("ilk degeri giriniz"))
+donusen= ilkDeger*donusum
+
+print("girilen deger " + str(ilkDeger) + " fakat donustukten sonraki deger:" + str(donusen))
