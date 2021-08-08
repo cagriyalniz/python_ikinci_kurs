@@ -34,3 +34,6 @@ setA = {1, 2, "a"}
 setB = {1, "a", "b"}
 
 print(setA.union(setB))
+print(setA.intersection(setB))
+print(setA.difference(setB))
+print(setA.symmetric_difference(setB))
