@@ -17,8 +17,11 @@ for i in range(len(cumle2)):
     
 x = 0
 syc_tr = 0
+
 for i in cumle2:
-    if i == "ç" or "ğ" or "ı" or "ö" or "ü":
+    if i == "ç" or "ğ" or "ı" or "ö" or "ü" or "ş":
+        
+        print(i)
         syc_tr = syc_tr + 1
         cumle2[x] = cumle2[x].replace("ç", "c")
         cumle2[x] = cumle2[x].replace("ğ", "g")
