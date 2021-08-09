@@ -17,8 +17,8 @@ def krktrBul(cumle1):
         if i == "ş":
             syc_tr = syc_tr + 1        
         x = x + 1    
-    donut = print(cumle1 + "\n bu cumlede {} adet turkce karakter mevcut".center(60).format(syc_tr))
-    return donut
+    donus = print(cumle1 + "\n bu cumlede {} adet turkce karakter mevcut".center(60).format(syc_tr))
+    return donus
 
 krktrBul("Sabahın sesi kulaklarımda Biri pencereyi açmış yine Ekşi, yorgun bir tat ağzımda")
 
