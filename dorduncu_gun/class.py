@@ -46,15 +46,55 @@ print(dikDortgen.eni, dikDortgen.boyu)
 print(dikDortgen.alan(), dikDortgen.cevre())
 
 
+class Canli():
+    def fiziki(self, cins, yas, boy, kilo):
+        return cins, yas, boy, kilo
+    
+class Insan(Canli):
+    def hareket(self):
+        return "yürüyebilir"
+
+cagri = Canli()
+print("cagri: " + str(cagri.fiziki("insan", 26, 168, 78)))
+
+ali = Insan()
+print(ali.fiziki("insan", 22, 120, 190))
+print(ali.hareket())
+
+class Hasta():
+    def __init__(self, ad, soyad, tc, telefon) -> None:
+        self.name = ad
+        self.surname = soyad
+        self.id = tc
+        self.phonenumber = telefon
+        
+    def kanTahlil(self, sonuc):
+        self.tahlilSonuc = sonuc
+        return self.id, sonuc
+
+    def safSes(self, sso):
+        self.isitme = sso
+        return self.id, sso
 
 
+hasta1 = Hasta("cagri", "yalniz", 2222, 5051)
+print(hasta1.safSes(75))
+print(hasta1.kanTahlil("covid +"))
 
+class Musteri(Hasta):
+    def __init__(self, ad, soyad, tc, telefon, borc) -> None:
+        super().__init__(ad, soyad, tc, telefon)
+        self.borc = borc
 
+    def odeme(self, islem, islemUcreti, odenenTutar):
+        self.yapilanIslem = islem
+        self.fatura = islemUcreti
+        self.yatirilanPara = odenenTutar
+        self.borc = int(islemUcreti) - int(odenenTutar)
+        return self.id, islem, islemUcreti, odenenTutar, self.borc
 
-
-
-
-
+Musteri1 = Musteri("ayşe", "kal", 123, 100, 0)
+print(Musteri1.odeme("muayene", 1200, 1100))
 
 
 # class Birey:
