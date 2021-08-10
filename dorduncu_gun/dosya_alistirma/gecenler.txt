@@ -1,0 +1,19 @@
+Eleanor                  Taylor                   Fizik                    78.4                     GECTI
+Lyla                     Dawson                   Matematik                89.5                     GECTI
+Cora Gill                Maryam                   Matematik Müh           83.4                     GECTI
+Jorgie                   James                    Bilgisayar Müh          79.7                     GECTI
+Keira                    Khan                     Bilgisayar Müh          76.5                     GECTI
+Scarlett                 Stone                    Matematik                89.5                     GECTI
+Arabella                 Wallace                  Bilgisayar Müh          74.8                     GECTI
+Darcey                   Woods                    Fizik                    77.9                     GECTI
+Brynn                    Thomas                   Kimya Müh               75.2                     GECTI
+Robin                    Spencer                  Matematik                94.9                     GECTI
+Jamie                    Dawson                   Fizik Müh               77.9                     GECTI
+Val                      Kaur                     Matematik Müh           76.3                     GECTI
+Morgan                   Pearson                  Bilgisayar Müh          77.9                     GECTI
+Bailey Gill              River                    Fizik                    85.2                     GECTI
+Alexis                   Hamilton                 Fizik                    77.9                     GECTI
+Shay                     Smith                    Matematik Müh           83.0                     GECTI
+Silver                   Barker                   Matematik                79.7                     GECTI
+Brook                    Kaur                     Matematik Müh           73.0                     GECTI
+James                    Harper                   Bilgisayar Müh          75.8                     GECTI
