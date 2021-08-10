@@ -1,4 +1,5 @@
-#%%
+
+
 def krktrBul(cumle1):
     x = 0
     syc_tr = 0
