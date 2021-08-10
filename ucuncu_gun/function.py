@@ -1,4 +1,4 @@
-
+#
 
 def krktrBul(cumle1):
     x = 0
