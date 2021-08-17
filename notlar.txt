@@ -1,2 +1,5 @@
 csv dosyasından aldigimiz verinin belirli kolonuna bakmak icin:
 city2 = dataUfo[dataUfo['City'] == 'Eagle River' ]
+
+string operasyonlarıyla işlem yapamadık. bir yerdes 
+tsv dosyası bulup string çalışmak gerekiyor
